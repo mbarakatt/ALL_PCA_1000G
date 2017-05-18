@@ -11,8 +11,8 @@ do
             # if [[ ! -f ../figures/pairs/${POP1}_${POP2}/pca_fig.pdf ]]
             # then
                 echo ${POP1}_${POP2}
-                # cd ../PLINK_per_pairs
-                # bash do_one_pair.sh ${POP1} ${POP2}
+                cd ../PLINK_per_pairs
+                bash do_one_pair.sh ${POP1} ${POP2}
                 cd ../figures
                 bash do_one_pair.sh ${POP1} ${POP2}
                 cd ../src
