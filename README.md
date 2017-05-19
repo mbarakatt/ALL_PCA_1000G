@@ -13,7 +13,7 @@
 * More question? Simply go look at the code
 
 ## Examples 
-Low quality png render of [huge pdf with all pcas on it](results/all_pairwise_pca.pdf)
+Low quality png render of a [huge pdf with all pcas on it](results/all_pairwise_pca.pdf) (I recommend you download it!)
 ![all pca png](results/all_pairwise_pca.png)
 
 Example of pca for a pair of populations. All of the pairs can be found in the `figures` folder. 
