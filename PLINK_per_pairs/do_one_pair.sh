@@ -1,4 +1,5 @@
 
+
 POP1=$1
 POP2=$2
 
@@ -15,5 +16,3 @@ plink --bfile ../data/affy_6_bial_auto_maf --keep $OUT_DIR/indiv_to_keep.txt --o
 plink --bfile $OUT_DIR/pair_pop --indep-pairwise 50 5 0.8 --out $OUT_DIR/snp_LD
 plink --bfile $OUT_DIR/pair_pop --exclude $OUT_DIR/snp_LD.prune.out --out $OUT_DIR/pair_pop_pruned --make-bed
 plink --bfile $OUT_DIR/pair_pop_pruned --pca 1000 --out $OUT_DIR/plink
-
-

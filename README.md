@@ -1,5 +1,4 @@
 # PCA for every single pair of populations in the 1000 Genomes Populations
-In the mean time you can  or you can look at single figures in the `figures` folder of this repository. 
 
 ## 30-second explanation of how these were made
 
@@ -12,9 +11,11 @@ In the mean time you can  or you can look at single figures in the `figures` fol
 * The big pdf with all populations was made using pdfjam
 * More question? Simply go look at the code
 
+## Examples 
+Low quality png render of [huge pdf with all pcas on it](results/all_pairwise_pca.pdf)
+![all pca png](results/all_pairwise_pca.png)
+
 Example of pca for a pair of populations. All of the pairs can be found in the `figures` folder. 
 ![demo pair pop pca](results/demo_pca.png)
 
-Low quality png render of [huge pdf with all pcas on it](results/all_pairwise_pca.pdf)
-![all pca png](results/all_pairwise_pca.png)
 
