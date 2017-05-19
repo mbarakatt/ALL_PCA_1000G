@@ -7,7 +7,8 @@
 * Removed SNPs with maf < 0.01
 * Created one set of plink file for all pairs of populations
 * LD based pruning using plink with setting 50 5 0.8
-* Ran pca using plink
+* Ran PCA using plink
+* Used homemade python script to generate the pdfs
 * The big pdf with all populations was made using pdfjam
 * More question? Simply go look at the code
 

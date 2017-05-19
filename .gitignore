@@ -1,2 +1,7 @@
 *.eigenval
 *.eigenvec
+*.bed
+*.bim
+*.fam
+*.nosex
+
